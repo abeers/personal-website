@@ -108,7 +108,7 @@
   }
 }
 
-@media (max-width: 875px) {
+@media screen and (max-width: 858px) and (min-height: 450px){
   .bl-main > section:first-child {
   	background: url('../images/grayShape.jpg') no-repeat;
   	  -webkit-background-size: auto 100%;
