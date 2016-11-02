@@ -520,17 +520,6 @@ section.bl-expand .bl-icon-close {
 	transition: opacity 0.3s linear 0.5s;
 }
 
-.contact-info {
-	background-color: #aaa;
-	border: 1px solid white;
-	color: #333;
-	font-weight: 500;
-	margin: 0 auto;
-	text-align: center;
-	max-width: 650px;
-	padding: 10px;
-}
-
 .about-us span {
 	font-weight: 700;
 }
@@ -556,6 +545,31 @@ section.bl-expand .bl-icon-close {
 .about-paragraph {
 	clear: left;
 	padding: 15px;
+}
+
+.contact-info {
+	background-color: rgba(0,0,0, 0.1);
+	/*border: 1px solid #333;
+	color: #000;*/
+	font-weight: 500;
+	margin: 0 auto;
+	text-align: center;
+	max-width: 650px;
+	padding: 10px;
+	position: relative;
+}
+
+.resume {
+	cursor: pointer;
+	background-color: #333;
+	padding: 10px;
+	position: absolute;
+	right: 0;
+	bottom: -40px;
+	max-width:150px;
+	/*margin: 0 auto;*/
+	text-align: center;
+	font-weight: 500;
 }
 
 @media screen and (max-width: 46.5em) {
@@ -637,7 +651,7 @@ section.bl-expand .bl-icon-close {
 .social-network.zerply{ background-position: -1920px 0}
 
 /* mouseover */
-.social-network.aim:hover,.active .social-network.aim{ background-position: 0 -40px}
+/*.social-network.aim:hover,.active .social-network.aim{ background-position: 0 -40px}
 .social-network.amazon:hover,.active .social-network.amazon{ background-position: -40px -40px}
 .social-network.apple:hover,.active .social-network.apple{ background-position: -80px -40px}
 .social-network.behance:hover,.active .social-network.behance{ background-position: -120px -40px}
@@ -685,7 +699,7 @@ section.bl-expand .bl-icon-close {
 .social-network.yahoo:hover,.active .social-network.yahoo{ background-position: -1800px -40px}
 .social-network.yelp:hover,.active .social-network.yelp{ background-position: -1840px -40px}
 .social-network.youtube:hover,.active .social-network.youtube{ background-position: -1880px -40px}
-.social-network.zerply:hover,.active .social-network.zerply{ background-position: -1920px -40px}
+.social-network.zerply:hover,.active .social-network.zerply{ background-position: -1920px -40px}*/
 
 @media screen and (max-width: 46.5em) {
 	.bl-content,
