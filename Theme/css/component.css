@@ -560,8 +560,8 @@ section.bl-expand .bl-icon-close {
 }
 
 .resume {
-	cursor: pointer;
-	background-color: #333;
+	/*cursor: pointer;
+	background-color: #333;*/
 	padding: 15px 10px;
 	/*position: absolute;
 	right: 0;
@@ -569,7 +569,7 @@ section.bl-expand .bl-icon-close {
 	max-width: 150px;
 	margin: 10px auto;
 	text-align: center;
-	font-weight: 500;
+	/*font-weight: 500;*/
 }
 
 @media screen and (max-width: 46.5em) {
